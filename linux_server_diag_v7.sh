@@ -1,3 +1,9 @@
+#!/usr/bin/env bash
+# linux_server_diag_v7.sh
+#
+# Safe, read-only Linux server diagnostics collector for production triage.
+# Focus: OS / CPU / memory / storage / network / kernel / services / limits.
+#
 # Production-safety posture:
 # - Read-only collection only (no config changes)
 # - Bounded command runtime with forced SIGKILL escalation (timeout -k)
